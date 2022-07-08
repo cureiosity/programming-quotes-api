@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "programming-quotes-api",
+  "version": "1.0.0",
+  "description": "programming quotes api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cureiosity/programming-quotes-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cureiosity/programming-quotes-api/issues"
+  },
+  "homepage": "https://github.com/cureiosity/programming-quotes-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "node-fetch": "^3.2.6"
+  }
+}
