@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 const quoteSchema = new mongoose.Schema({
-  en: String,
+  quote: String,
   author: String
 })
 
