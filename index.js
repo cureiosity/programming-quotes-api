@@ -4,11 +4,14 @@ import db from './connection.js'
 import Quote from './Quote.js'
 
 const app = express()
+const PORT = process.env.PORT || 4000
 
 app.use(express.json())
 
-app.listen(4000, () => console.log('successfully listening on port 4000'))
-
+app.listen(PORT, () => {
+  console.log(`Successfully listening on Port ${PORT}`)
+})
+  
 app.get('/', (req, res) => {
   Quote.find({})
     .then(quotes => res.json(quotes))
